@@ -1,5 +1,5 @@
 import React from 'react';
-import PersistentDrawerLeft from './PersistentDrawerLeft';
+import PersistentDrawerLeft from './Sidebar/PersistentDrawerLeft';
 
 const App =() =>(
   <div>

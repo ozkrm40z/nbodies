@@ -1,5 +1,19 @@
 
 var initialSettings = {
+    canvas: {
+        width: 600,
+        height: 600,
+    },
+    particle: {
+        minSize: 1,
+        maxSize: 10,
+        minMass: 1,
+        MaxMass: 10,
+        defaultmass: 3,
+        defaultPositionX: 150,
+        defaultPositionY: 150,
+        defaultColor: "yellow", 
+    },
     gravity: {
         current : 1,
         min: 1,

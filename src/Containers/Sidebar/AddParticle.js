@@ -12,7 +12,7 @@ const mapStateToProps = state =>{
 const mapDispatchToProps = (dispatch) =>{
     return{
         onSubmit: (form)=> {
-            dispatch(addParticle(parseInt(form.mass),parseInt(form.posx),parseInt(form.posy),form.color))
+            dispatch(addParticle(form.mass,form.posx,form.posy,form.color))
         }
     }
 }
