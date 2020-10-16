@@ -6,8 +6,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import IconButton from '@material-ui/core/IconButton';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import Canvas from '../Containers/Canvas';
-import Title from './Title';
+import Canvas from '../../Containers/Canvas';
+import Title from '../Title';
 import Settings from './Settings';
 
 const drawerWidth = 250;

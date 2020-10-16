@@ -25,7 +25,7 @@ function getAttraction(particleA,particleB, gravity, minMagnitude, maxMagnitude)
     }
     
     var magnitude = getMagnitude(force.x, force.y, minMagnitude, maxMagnitude );
-    var strength = (gravity* particleB.Mass* this.Mass )/ Math.pow(magnitude,2)
+    var strength = (gravity* particleB.Mass* particleA.Mass )/ Math.pow(magnitude,2)
     force.x = force.x * strength;
     force.y = force.y * strength;
     return force;

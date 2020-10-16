@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import GlobalSettingsView from '../Components/GlobalSettingsView'
-import {updateGravity, updateTimeInterval,start} from '../actions'
+import GlobalSettingsView from '../../Components/Sidebar/GlobalSettingsView'
+import {updateGravity, updateTimeInterval,start} from '../../actions'
 
 const mapStateToProps = state =>{
     return{

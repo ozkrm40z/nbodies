@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import AddParticleView from '../Components/AddParticleView'
-import {addParticle} from '../actions'
+import AddParticleView from '../../Components/Sidebar/AddParticleView'
+import {addParticle} from '../../actions'
 
 
 const mapStateToProps = state =>{
